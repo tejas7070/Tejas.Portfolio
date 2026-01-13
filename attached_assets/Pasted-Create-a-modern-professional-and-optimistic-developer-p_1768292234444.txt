@@ -1,0 +1,210 @@
+Create a modern, professional, and optimistic developer portfolio website for Tejas Ananta Ulawekar, a Computer Science Engineering graduate and early-career software developer based in Panvel / Navi Mumbai, India.
+
+Overall Requirements
+
+Tech stack: Next.js (App Router) + Tailwind CSS
+
+Deployment ready for Netlify or Vercel
+
+No database required
+
+No billing / paid APIs
+
+Use Email-based contact (mailto or EmailJS) instead of backend storage
+
+Clean, fast, recruiter-friendly UI (not over-designed)
+
+Fully responsive (mobile + desktop)
+
+Pages & Sections
+1. Home (Hero Section)
+
+Name: Tejas Ananta Ulawekar
+
+Title: Software Developer | Computer Engineering Graduate
+
+Short tagline:
+
+“Passionate about building practical software solutions with strong fundamentals in OOP, problem-solving, and system design.”
+
+Primary CTA buttons:
+
+View Resume
+
+View Projects
+
+Contact Me
+
+2. About Me
+
+Content should reflect:
+
+BE Computer Engineering graduate (8.4 CGPA)
+
+Strong foundation in OOPS, DSA, SQL, Git, Linux (Ubuntu)
+
+Experience across C#, Ruby on Rails, Python, JavaScript
+
+Comfortable with backend logic, APIs, and system design
+
+Actively transitioning toward .NET / backend-focused roles
+
+Keep tone honest, confident, and growth-oriented (not exaggerated).
+
+3. Skills Section
+
+Categorize clearly:
+
+Core Concepts
+
+Object-Oriented Programming (OOPS)
+
+Data Structures & Algorithms
+
+MVC Architecture
+
+RESTful API Design
+
+Authentication & Authorization
+
+Programming Languages
+
+C#
+
+Python
+
+Ruby
+
+C / C++
+
+JavaScript
+
+Frameworks & Tools
+
+.NET (learning)
+
+Ruby on Rails
+
+React.js (basic)
+
+Next.js (portfolio use)
+
+Mendix (basic)
+
+Databases
+
+PostgreSQL
+
+MySQL
+
+SQLite
+
+Tools & Platforms
+
+Git, GitHub, GitLab
+
+Linux (Ubuntu)
+
+VS Code
+
+Firebase (basic)
+
+4. Experience Section
+
+Python Developer Intern – Sahu Technologies Pvt. Ltd.
+(Dec 2022 – Feb 2023)
+
+Automated repetitive data tasks using Python scripts
+
+Reduced processing time by ~20%
+
+Improved efficiency and reduced manual errors
+
+Add a button:
+👉 “View Internship Certificate” (PDF / Image placeholder link)
+
+5. Projects Section (Very Important)
+
+Each project should have:
+
+Short description
+
+Tech stack
+
+Key features
+
+Projects to include:
+
+1. TransactPro (Core Banking System)
+
+Ruby on Rails, PostgreSQL
+
+Account management, credit/debit transactions
+
+Authentication, role control, masked sensitive data
+
+2. C# Bank Account Management System (OOPS Project)
+
+C# Windows Forms / GUI
+
+Encapsulation, inheritance, polymorphism
+
+Savings vs Current account logic with interest handling
+
+3. Visual Language Interpreter (Major Project)
+
+Python, TensorFlow/Keras, JavaScript
+
+Converts sign language to text & speech
+
+Supports Hindi, Marathi & English
+
+4. SignMaster
+
+HTML, CSS, JavaScript (Canvas API)
+
+Digital signature creation & download
+
+6. Resume Section
+
+Button: Download Resume (PDF)
+
+Button: View Resume Online
+
+7. Contact Section
+
+Give two options:
+
+Simple contact form (EmailJS or mailto)
+
+Direct contact details:
+
+Email
+
+Phone
+
+LinkedIn
+
+GitHub
+
+No database, no authentication.
+
+UI / Design Guidelines
+
+Clean, professional color palette (dark or neutral)
+
+Subtle animations (Framer Motion optional)
+
+Focus on clarity over flashiness
+
+Recruiter should understand profile in under 60 seconds
+
+SEO & Performance
+
+Proper meta tags
+
+Fast load time
+
+Accessible components
+
+Output should be a complete ready-to-deploy Next.js portfolio project.
