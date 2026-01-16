@@ -2,17 +2,65 @@ import { motion } from "framer-motion";
 import { SectionHeading } from "../ui/section-heading";
 
 const skills = {
-  "Core Concepts": ["OOPS", "Data Structures", "MVC Architecture", "RESTful APIs", "Auth & Authorization"],
-  "Languages": ["C#", "Python", "Ruby", "C / C++", "JavaScript", "SQL"],
-  "Frameworks & Libraries": [".NET (Learning)", "Ruby on Rails", "React.js", "Next.js", "Flask", "Mendix"],
-  "Tools & Platforms": ["Git / GitHub", "Linux (Ubuntu)", "PostgreSQL", "MySQL", "VS Code", "Firebase"]
+  "Programming Languages": ["Python", "Ruby", "C", "C++", "JavaScript", "C#"],
+
+  "Web Development": [
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Next.js",
+    "Ruby on Rails",
+    "WordPress",
+    "Mendix (Basic)",
+  ],
+
+  "Backend & APIs": [
+    "RESTful API Design",
+    "MVC Architecture",
+    "Authentication & Authorization (Devise, JWT)",
+    "Server-side Scripting (Python, Ruby, PHP)",
+  ],
+
+  Databases: ["PostgreSQL", "MySQL", "SQLite3"],
+
+  "Data & Core CS Concepts": [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming (OOP)",
+    "Computer Networks",
+    "Secure Data Handling",
+  ],
+
+  "Testing & Code Quality": [
+    "RSpec (Unit & Integration Testing)",
+    "Cypress (E2E Testing)",
+    "RuboCop (Linting & Code Quality)",
+  ],
+
+  "Tools & Platforms": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "VS Code",
+    "Linux (Ubuntu)",
+    "Firebase",
+    "Cursor",
+  ],
+
+  "Soft Skills": [
+    "Problem Solving",
+    "Team Collaboration",
+    "Adaptability",
+    "Clear Communication",
+  ],
 };
 
 export function Skills() {
   return (
     <section id="skills" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/5 via-background to-background" />
-      
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <SectionHeading title="Technical Skills" subtitle="true" />
 

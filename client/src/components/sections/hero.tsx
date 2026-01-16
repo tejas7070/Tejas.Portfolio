@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 
 export function Hero() {
@@ -45,15 +45,14 @@ export function Hero() {
               </button>
             </ScrollLink>
             
-            <a href="/resume.pdf" download className="px-8 py-3 rounded-xl bg-secondary text-secondary-foreground font-semibold hover:bg-secondary/80 transition-all flex items-center gap-2 border border-white/5">
+            <a href="/Resume.pdf#view=fitH" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-secondary text-secondary-foreground font-semibold hover:bg-secondary/80 transition-all flex items-center gap-2 border border-white/5">
               Resume <Download className="w-4 h-4" />
             </a>
           </div>
 
-          <div className="flex gap-6 text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors p-2 hover:bg-secondary rounded-lg"><Github className="w-6 h-6" /></a>
-            <a href="#" className="hover:text-primary transition-colors p-2 hover:bg-secondary rounded-lg"><Linkedin className="w-6 h-6" /></a>
-            <a href="mailto:tejas@example.com" className="hover:text-primary transition-colors p-2 hover:bg-secondary rounded-lg"><Mail className="w-6 h-6" /></a>
+          <div className="flex gap-6 text-muted-foreground ml-3">
+            <a href="https://github.com/tejas7070/" className="hover:text-primary transition-colors p-2 hover:bg-secondary rounded-lg"><Github className="w-6 h-6" /></a>
+            <a href="https://www.linkedin.com/in/tejas-ulawekar/" className="hover:text-primary transition-colors p-2 hover:bg-secondary rounded-lg"><Linkedin className="w-6 h-6" /></a>
           </div>
         </motion.div>
 

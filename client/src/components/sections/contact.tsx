@@ -61,7 +61,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Email Me</p>
-                  <p className="text-foreground font-semibold">tejas@example.com</p>
+                  <p className="text-foreground font-semibold">ulawekartejas@gamil.com</p>
                 </div>
               </a>
 
@@ -71,7 +71,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Phone</p>
-                  <p className="text-foreground font-semibold">+91 98765 43210</p>
+                  <p className="text-foreground font-semibold">+91 81048 51928</p>
                 </div>
               </div>
 
@@ -81,16 +81,16 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Location</p>
-                  <p className="text-foreground font-semibold">India</p>
+                  <p className="text-foreground font-semibold">Mumbai, India</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-10 flex gap-4">
-               <a href="#" className="p-3 bg-card border border-white/5 rounded-full hover:bg-primary hover:text-primary-foreground transition-all">
+               <a href="https://github.com/tejas7070" className="p-3 bg-card border border-white/5 rounded-full hover:bg-primary hover:text-primary-foreground transition-all">
                  <Github className="w-5 h-5" />
                </a>
-               <a href="#" className="p-3 bg-card border border-white/5 rounded-full hover:bg-primary hover:text-primary-foreground transition-all">
+               <a href="https://www.linkedin.com/in/tejas-ulawekar/" className="p-3 bg-card border border-white/5 rounded-full hover:bg-primary hover:text-primary-foreground transition-all">
                  <Linkedin className="w-5 h-5" />
                </a>
             </div>
@@ -112,7 +112,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" className="bg-secondary/50 border-white/10" {...field} />
+                        <Input placeholder="Enter Your Name" className="bg-secondary/50 border-white/10" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -126,7 +126,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" type="email" className="bg-secondary/50 border-white/10" {...field} />
+                        <Input placeholder="user@example.com" type="email" className="bg-secondary/50 border-white/10" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>

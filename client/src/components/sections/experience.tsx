@@ -43,13 +43,13 @@ export function Experience() {
                   <li>Improved overall team efficiency and reduced manual data entry errors.</li>
                 </ul>
                 <div className="mt-4 pt-4 border-t border-white/5">
-                   <button 
-                     disabled
+                   <a 
+                     href="/certificate.jpg#view=fitH" target="_blank" rel="noopener noreferrer"
                      className="text-xs font-semibold text-muted-foreground hover:text-primary transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                      title="Certificate link placeholder"
                    >
-                     View Internship Certificate (Unavailable)
-                   </button>
+                     View Internship Certificate
+                   </a>
                 </div>
               </div>
             </div>

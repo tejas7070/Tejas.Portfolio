@@ -57,7 +57,9 @@ export function Navbar() {
             </ScrollLink>
           ))}
           <a
-            href="mailto:tejas@example.com"
+            href="https://mail.google.com/mail/?view=cm&to=ulawekartejas@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
           >
             Hire Me
